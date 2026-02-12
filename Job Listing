@@ -1,0 +1,32 @@
+job-portal
+│
+├── server
+│   ├── models
+│   │   ├── User.js
+│   │   ├── Job.js
+│   │   └── Application.js
+│   │
+│   ├── routes
+│   │   ├── authRoutes.js
+│   │   ├── jobRoutes.js
+│   │   └── applicationRoutes.js
+│   │
+│   ├── uploads
+│   │
+│   ├── server.js
+│   ├── package.json
+│   └── .env
+│
+├── client
+│   ├── src
+│   │   ├── pages
+│   │   │   └── Jobs.jsx
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── api.js
+│   │
+│   ├── index.html
+│   └── package.json
+│
+└── README.md
